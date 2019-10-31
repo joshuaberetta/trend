@@ -97,7 +97,7 @@ python cli.py
 You should see something like this in your terminal window:
 ![](examples/anaconda_prompt.JPG)
 
-If at any point in you want to terminate the program while it's processing, press `ctrl + c` on your keyboard in the `Anaconda Prompt`.
+If at any point you want to terminate the program while it's processing, press `ctrl + c` on your keyboard in the `Anaconda Prompt`.
 
 ### Notes
 
