@@ -87,6 +87,7 @@ conda deactivate
 
 Open the `config.yaml` file in your text editor of choice and follow the instructions in the file. 
 > If you don't have a text editor, download any of the following free programs: `VS Code`, `Sublime`, `Notepad++`, etc.
+
 Save any changes made to the `config.yaml` file.
 
 Run the following command from the directory where `cli.py` is placed:
@@ -102,7 +103,9 @@ If at any point you want to terminate the program while it's processing, press `
 ### Notes
 
 > The program should now be running and there should be a progress bar moving along.
+
 > The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file, ex. `outputs`.
+
 > Keep in mind that there is a lot of data to crunch for each plot, so the program can take up to 30 minutes to run through all the variables.
 
 ## Meta
