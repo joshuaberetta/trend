@@ -22,7 +22,7 @@ look like this
 >must be copy and pasted into your `Anaconda Prompt`, followed by pressing `enter` on your keyboard.)
 
 ### First and foremost
-If you don't already have `Anaconda` installed, go to the this [website](https://www.anaconda.com/distribution/) and download the following file for your particular operating system (Windows / macOS / Linux):
+If you don't already have `Anaconda` installed, go to the this [website](https://www.anaconda.com/distribution/) and download the following file for your operating system (Windows / macOS / Linux):
 
 ![](examples/anaconda.JPG)
 
@@ -58,10 +58,9 @@ cd trend
 ## Environment setup
 > Ensure you are located in the `trend` folder in your `Anaconda Prompt`
 
-
+Run the following command in your `Anaconda Prompt`:
 > Only do the following environment installation once
 
-Run the following command in your `Anaconda Prompt`:
 ```sh
 conda env create -f environment.yml
 ```
@@ -88,16 +87,23 @@ conda deactivate
 
 Open the `config.yaml` file in your text editor of choice and follow the instructions in the file. 
 > If you don't have a text editor, download any of the following free programmes: `VS Code`, `Sublime`, `Notepad++`, etc.
+Save any changes made to the `config.yaml` file.
 
 Run the following command from the directory where `cli.py` is placed:
 ```sh
 python cli.py
 ```
 
+You should see something like this in your terminal window:
+![](examples/anaconda_prompt.jpg)
+
+If at any point in you want to terminate the programme while it's processing, press `ctrl + c` on your keyboard in the `Anaconda Prompt`.
+
 ### Notes
 
 > The program should now be running and there should be a progress bar moving along.
 > The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file, ex. `outputs`
+> Keep in mind that there is a lot of data to crunch for each plot, so the program can take up to 30 minutes to run through all the variables.
 
 ## Meta
 
