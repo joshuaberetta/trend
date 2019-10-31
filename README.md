@@ -26,27 +26,27 @@ If you don't alread have `Anaconda` installed, go to the following [website](htt
 Once the download has completed, follow the instructions in this [article](https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/) for installing `Anaconda` on your system.
 
 ### Getting the files
+> Note: The geo_db.gdb file was too large to store. I will have to send it separately.
 
-Here you have a couple options:
-1. 
+![](examples/github.JPG)
 
-- Download `Anaconda` from their website: 
-- Unzip the `trend.zip` file and place in desired location
-- Copy in your variable's folders containing the `*.dat` files into the folder `data/variables`
-- On your machine, open up `Anaconda Prompt`
-    - Copy the path of your `trend` folder
-    - Type `cd <trend-folder-path>` into the command prompt (paste the `trend` path after the `cd`)
-    - Copy `conda env create -f environment.yml` into the command prompt and press enter
-        - If prompted to type `[y/n]`, type `y` and press enter
-        - Wait for the downloads to finish
-    - Copy `conda activate trend` into the command prompt and press enter
-        - The beggining of your command line should say `(trend)`
-- Open up the `config.yaml` in a text editor
-    - Follow the instructions in the file
-- Copy `python cli.py` into the command prompt and press enter
-- DONE
+Here you have a two options:
+
+1. Click `Download ZIP` and wait for the download to finish.
+    - Unzip the file in your desired location and continue with the setup process
+
+2. Copy the link in the box: `https://github.com/joshuaberetta/trend.git`
+    - In the `Anaconda Prompt`, navigate to the desired location, i.e. type:
+```sh
+cd <my-desired-location>
+```
+    - Once you are located there in your terminal, run the following command and wait for the download to complete:
+```sh
+git clone https://github.com/joshuaberetta/trend.git
+```
 
 ## Environment setup
+> Ensure you are located in the `trend` folder in your `Anaconda Prompt`
 
 Run the following command in your `Anaconda Prompt`:
 ```sh
@@ -62,6 +62,7 @@ Once all the downloads have completed successfully, run the following command:
 ```sh
 conda activate trend
 ```
+The beggining of your command line should say `(trend)`
 
 Once you have completed running the program and you have all your outputs, run the following command:
 ```sh
