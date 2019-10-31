@@ -1,7 +1,7 @@
 # Trend
 > Generating animations from GIS and node data
 
-This program generates animated gifs for a yearly and monthly period for each variable of interest. The output of the programme consists of:
+This program generates animated gifs for a yearly and monthly period for each variable of interest. The output of the program consists of:
  - Images for each year in the variable series in .png format
  - Images for each month in the variable series in .png format
  - Animations for the years and months for each variable in .gif format
@@ -70,7 +70,7 @@ Wait for all the downloads to take place. If prompted to type `[y/n]`, type:
 y
 ```
 
-> Do this after installing the envrionment files and each time you return to run the programme in the future
+> Do this after installing the envrionment files and each time you return to run the program in the future
 
 Run the following command to activate your environment:
 ```sh
@@ -86,7 +86,7 @@ conda deactivate
 ## Usage example
 
 Open the `config.yaml` file in your text editor of choice and follow the instructions in the file. 
-> If you don't have a text editor, download any of the following free programmes: `VS Code`, `Sublime`, `Notepad++`, etc.
+> If you don't have a text editor, download any of the following free programs: `VS Code`, `Sublime`, `Notepad++`, etc.
 Save any changes made to the `config.yaml` file.
 
 Run the following command from the directory where `cli.py` is placed:
@@ -97,7 +97,7 @@ python cli.py
 You should see something like this in your terminal window:
 ![](examples/anaconda_prompt.JPG)
 
-If at any point in you want to terminate the programme while it's processing, press `ctrl + c` on your keyboard in the `Anaconda Prompt`.
+If at any point in you want to terminate the program while it's processing, press `ctrl + c` on your keyboard in the `Anaconda Prompt`.
 
 ### Notes
 
