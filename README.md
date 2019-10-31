@@ -40,7 +40,9 @@ Here you have a two options:
 ```sh
 cd <my-desired-location>
 ```
-    - Once you are located there in your terminal, run the following command and wait for the download to complete:
+
+ - Once you are located there in your terminal, run the following command and wait for the download to complete:
+
 ```sh
 git clone https://github.com/joshuaberetta/trend.git
 ```
