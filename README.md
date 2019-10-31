@@ -1,11 +1,14 @@
 # Trend
 > Generating animations from GIS and node data
 
-This program generates animated gifs for a yearly and monthly period for each variable of interest. The output of the programme is both the frames from each year in the series and each month of the year in a png format and gifs that have stitched the individual frames together into a simple animation.
+This program generates animated gifs for a yearly and monthly period for each variable of interest. The output of the programme consists of:
+ - Images for each year in the variable series in .png format
+ - Images for each month in the variable series in .png format
+ - Animations for the years and months for each variable in .gif format
 
 The input vaiables as well as some other minor tweaks can be configured in the `config.yaml` file.
 
-Here's an example output:
+Here's an example animation output:
 
 ![](examples/example_output.gif)
 
@@ -19,14 +22,14 @@ look like this
 >must be copy and pasted into your `Anaconda Prompt`, followed by pressing `enter` on your keyboard.)
 
 ### First and foremost
-If you don't alread have `Anaconda` installed, go to the following [website](https://www.anaconda.com/distribution/) and download the following file for your particular operating system (Windows / macOS / Linux):
+If you don't already have `Anaconda` installed, go to the this [website](https://www.anaconda.com/distribution/) and download the following file for your particular operating system (Windows / macOS / Linux):
 
 ![](examples/anaconda.JPG)
 
 Once the download has completed, follow the instructions in this [article](https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/) for installing `Anaconda` on your system.
 
 ### Getting the files
-> Note: The geo_db.gdb file was too large to store. I will have to send it separately.
+> Note: The `geo_db.gdb` file was too large to store in Github - it's not designed for large file storage. I'll have to send it separately.
 
 ![](examples/github.JPG)
 
@@ -47,8 +50,16 @@ Once you are located there in your terminal, run the following command and wait 
 git clone https://github.com/joshuaberetta/trend.git
 ```
 
+Finally, move into the directory you have just downloaded / cloned:
+```sh
+cd trend
+```
+
 ## Environment setup
 > Ensure you are located in the `trend` folder in your `Anaconda Prompt`
+
+
+> Only do the following environment installation once
 
 Run the following command in your `Anaconda Prompt`:
 ```sh
@@ -60,11 +71,13 @@ Wait for all the downloads to take place. If prompted to type `[y/n]`, type:
 y
 ```
 
-Once all the downloads have completed successfully, run the following command:
+> Do this after installing the envrionment files and each time you return to run the programme in the future
+
+Run the following command to activate your environment:
 ```sh
 conda activate trend
 ```
-The beggining of your command line should say `(trend)`
+> The beggining of your command line should now say `(trend)`, indicating that the `trend` environment is active
 
 Once you have completed running the program and you have all your outputs, run the following command:
 ```sh
@@ -81,12 +94,11 @@ Run the following command from the directory where `cli.py` is placed:
 python cli.py
 ```
 
-### Notes on Installation
+### Notes
 
-The program should now be running and there should be a progress bar moving along.
-
-The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file.
-
-If you have any issues with any of these steps, please contact me to assist.
+> The program should now be running and there should be a progress bar moving along.
+> The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file, ex. `outputs`
 
 ## Meta
+
+If you have any issues with any of these steps, please contact me to assist.

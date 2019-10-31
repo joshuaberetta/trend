@@ -54,29 +54,30 @@ data:
   
   # Specifies the path to the nodes csv
   # DON'T CHANGE
-  nodes: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\nodes\nodes.csv'
+  nodes: 'data/nodes/nodes.csv'
   
   # Specifies the variables to plot with their path. 
   # The specified unit and title will be placed on the plots
+  # You can use relative or absolute paths
   variables: 
     water_temp:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\3 Water temperature\3 Water temperature\Nodes_Simulated_Water_Temperature'
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\3 Water temperature\3 Water temperature\Nodes_Simulated_Water_Temperature'
       unit: 'C'
       title: 'Water Temperature'
     no3:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\4 NO3\4 NO3\Nodes_Simulated_NO3'
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\4 NO3\4 NO3\Nodes_Simulated_NO3'
       unit: 'mg/l'
       title: 'Nitrate/Nitrite (NO3-N)'
     ammonia:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\5 Ammonia\5 Ammonia\Nodes_Simulated_Ammonia'
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\5 Ammonia\5 Ammonia\Nodes_Simulated_Ammonia'
       unit: 'mg/l'
       title: 'Ammonia (NH4-N)'
     p:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\6 P\6 P\Nodes_Simulated_P'
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\6 P\6 P\Nodes_Simulated_P'
       unit: 'mg/l'
       title: 'Phosphate (PO4-P)'
     e_coli:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\7 E coli\7 E coli\Nodes_Simulated_E-coli'
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\7 E coli\7 E coli\Nodes_Simulated_E-coli'
       unit: '100 m/l'
       title: 'E.coli'
     
