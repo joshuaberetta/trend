@@ -76,7 +76,7 @@ Run the following command to activate your environment:
 ```sh
 conda activate trend
 ```
-> The beggining of your command line should now say `(trend)`, indicating that the `trend` environment is active
+> The beginning of your command line should now say `(trend)`, indicating that the `trend` environment is active
 
 Once you have completed running the program and you have all your outputs, run the following command:
 ```sh
