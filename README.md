@@ -41,7 +41,7 @@ Here you have a two options:
 cd <my-desired-location>
 ```
 
- - Once you are located there in your terminal, run the following command and wait for the download to complete:
+Once you are located there in your terminal, run the following command and wait for the download to complete:
 
 ```sh
 git clone https://github.com/joshuaberetta/trend.git
@@ -74,7 +74,7 @@ conda deactivate
 ## Usage example
 
 Open the `config.yaml` file in your text editor of choice and follow the instructions in the file. 
-> If you don't have a text editor, download any of the following free programmes: `VS Code`, `Sublime`, `Notepad ++`, etc.
+> If you don't have a text editor, download any of the following free programmes: `VS Code`, `Sublime`, `Notepad++`, etc.
 
 Run the following command from the directory where `cli.py` is placed:
 ```sh
