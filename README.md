@@ -33,7 +33,7 @@ Once the download has completed, follow the instructions in this [article](https
 
 ![](examples/github.JPG)
 
-Here you have a two options:
+Here you have two options:
 
 1. Click `Download ZIP` and wait for the download to finish.
     - Unzip the file in your desired location and continue with the setup process
@@ -102,7 +102,7 @@ If at any point you want to terminate the program while it's processing, press `
 ### Notes
 
 > The program should now be running and there should be a progress bar moving along.
-> The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file, ex. `outputs`
+> The outputs of the script will now be sitting in the output folder specified in the `config.yaml` file, ex. `outputs`.
 > Keep in mind that there is a lot of data to crunch for each plot, so the program can take up to 30 minutes to run through all the variables.
 
 ## Meta
