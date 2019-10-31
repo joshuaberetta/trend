@@ -1,0 +1,82 @@
+# These are some general settings that can be adjusted 
+# Feel free to only change the out_folder label
+settings:
+  
+  # Specifies the name of the output folder where the plots and gifs will be placed
+  out_folder: outputs
+  
+  # Specifies the groupings of the data
+  # DON'T CHANGE
+  groups:
+    - yearly
+    - monthly
+  
+  # Specifies the range of dates to be plotted
+  date_range: 
+    start_year: 1920
+    end_year: 2010
+  
+  # Specifies the length of each frame of the gif in seconds
+  gif_duration: 
+    yearly: 0.5
+    monthly: 1.0
+  
+  # Specifies the colour mapping on the plot - refer to the matplotlib docs for other options
+  cmap: viridis
+
+data:
+  gis:
+
+    # Specifies the path to the shape file to plot
+    # DON'T CHANGE
+    shape_path: 'data/gis/UVaal/UVaal.shp'
+    
+    # Misc geo data for nicer formatting of plots
+    misc: 
+
+      # Specifies path to geo database folder
+      # DON'T CHANGE
+      geo_db_path: 'data/gis/geo_db.gdb/'
+      
+      # Don't modify the layers unless the script is modified first
+      # DON'T CHANGE
+      layers: 
+        mask: 'RW_Vaaldam_MASK'
+        dams: 'Dams'
+        catchments: 'Modelling_Catchments'
+      
+      # Specifies which dams to be plotted
+      dams_of_interest: 
+        - 'Vaal Dam'
+        - 'Grootdraai'
+        - 'Sterkfontein'
+        - 'Saulspoort'
+  
+  # Specifies the path to the nodes csv
+  # DON'T CHANGE
+  nodes: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\nodes\nodes.csv'
+  
+  # Specifies the variables to plot with their path. 
+  # The specified unit and title will be placed on the plots
+  variables: 
+    water_temp:
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\3 Water temperature\3 Water temperature\Nodes_Simulated_Water_Temperature'
+      unit: 'C'
+      title: 'Water Temperature'
+    no3:
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\4 NO3\4 NO3\Nodes_Simulated_NO3'
+      unit: 'mg/l'
+      title: 'Nitrate/Nitrite (NO3-N)'
+    ammonia:
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\5 Ammonia\5 Ammonia\Nodes_Simulated_Ammonia'
+      unit: 'mg/l'
+      title: 'Ammonia (NH4-N)'
+    p:
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\6 P\6 P\Nodes_Simulated_P'
+      unit: 'mg/l'
+      title: 'Phosphate (PO4-P)'
+    e_coli:
+      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\andriette-scripts\andriette-scripts\trend\data\variables\7 E coli\7 E coli\Nodes_Simulated_E-coli'
+      unit: '100 m/l'
+      title: 'E.coli'
+    
