@@ -61,23 +61,23 @@ data:
   # You can use relative or absolute paths
   variables: 
     water_temp:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\3 Water temperature\3 Water temperature\Nodes_Simulated_Water_Temperature'
+      path: 'data\variables\3 Water temperature\3 Water temperature\Nodes_Simulated_Water_Temperature'
       unit: 'C'
       title: 'Water Temperature'
     no3:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\4 NO3\4 NO3\Nodes_Simulated_NO3'
+      path: 'data\variables\4 NO3\4 NO3\Nodes_Simulated_NO3'
       unit: 'mg/l'
       title: 'Nitrate/Nitrite (NO3-N)'
     ammonia:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\5 Ammonia\5 Ammonia\Nodes_Simulated_Ammonia'
+      path: 'data\variables\5 Ammonia\5 Ammonia\Nodes_Simulated_Ammonia'
       unit: 'mg/l'
       title: 'Ammonia (NH4-N)'
     p:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\6 P\6 P\Nodes_Simulated_P'
+      path: 'data\variables\6 P\6 P\Nodes_Simulated_P'
       unit: 'mg/l'
       title: 'Phosphate (PO4-P)'
     e_coli:
-      path: 'C:\Users\Josh.Beretta\Desktop\Sandbox\andriette\trend\data\variables\7 E coli\7 E coli\Nodes_Simulated_E-coli'
+      path: 'data\variables\7 E coli\7 E coli\Nodes_Simulated_E-coli'
       unit: '100 m/l'
       title: 'E.coli'
     
